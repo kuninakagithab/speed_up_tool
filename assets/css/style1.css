@@ -2,33 +2,62 @@
 
 *{
     font-size: 20px;
+    font-weight: lighter;
 }
 
 header{
-    margin: 30px 0;
+    background-size: cover;
+    background-image: url("../img/programming.jpg");
+    height: 250px;
 }
 
 ol li{
     font-size: 30px;
-    margin: 10px 30px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
 }
 
-ol img{
-    width: 600px;
+ol{
+    padding: 0;
 }
 
 .flex-column{
-    width: 45%;
     margin: 20px;
-    padding: 10px;
 }
 
 h1{
-    font-size: 40px;
-    margin-right: 80px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
 }
 
 .dropright{
     margin-left: 60px;
 }
+
+.btn-group{
+    width: 120px;
+}
+
+.btn{
+    margin-top: 20px;
+
+}
+
+.extension{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}
+
+.styling{
+    margin: 50px;
+}
+
+.rainbow, .textkousei{
+    width: 600px;
+    height: 500px;
+}
+
 
