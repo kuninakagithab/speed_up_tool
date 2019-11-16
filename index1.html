@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VS拡張機能の紹介</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style1.css">
+</head>
+
+<body>
+    <header class="text-center d-flex flex-row justify-content-between">
+        <div class="btn-group dropright">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Menu
+            </button>
+            <div class="dropdown-menu" x-placement="right-start"
+                style="position: absolute; transform: translate3d(111px, 0px, 0px); top: 0px; left: 0px; will-change: transform;">
+                <a class="dropdown-item" href="#">Topページ</a>
+                <a class="dropdown-item" href="#">何か</a>
+            </div>
+        </div>
+        <h1>VS拡張機能の紹介</h1>
+    </header>
+    <main>
+        <ol class="d-flex flex-wrap">
+            <div class="d-flex flex-column border border-success">
+                <li>Bracket Pair Colorizer 2</li>
+                <p>ソース内で、一致している括弧同士にわかりやすい色をつけてくれます。JavaScriptを触るときに結構重宝します。</p>
+                <img src="assets/img/bracket-pair-colorizer.jpg" alt="bracket-pair-colorizer">
+            </div>
+            <div class="flex-column justify-content-center border border-success">
+                <li>Code Spell Checker</li>
+                <p>名前の通り、コードのスペルをチェックしてくれる拡張機能です。</p>
+                <img src="assets/img/code-spell-checker.jpg" alt="code-spell-checker">
+                <p>↑の写真だと、starrtとtwenttyfiveがミスなので「〜」が引かれています。
+
+                    単純なスペルミスがすぐにわかるようになるので、入れると吉。</p>
+            </div>
+            <div class="flex-column justify-content-center border border-success">
+                <li>JavaScript code snippets</li>
+                <p>JavaScriptのスニペット集です。途中まで入力したら予測変換されたりします。</p>
+                <img src="assets/img/foreach.jpg" alt="foreach">
+                <p>forと途中まで入力して、出てくるカーソルからforeachを選ぶと,
+                    foreachの基本構文が出力されたりと、</p>
+                <img src="assets/img/foreach1.jpg" alt="foreach1">
+                <p>こんな感じでjavascriptが楽に書けるように。</p>
+            </div>
+            <div class="flex-column justify-content-center border border-success">
+                <li>indent-rainbow</li>
+                <p>インデントに色がついて、深さが変わるごとに違う色に変化する。</p>
+                <img src="assets/img/indentRainbow.jpg" alt="indentRainbow">
+            </div>
+            <div class="flex-column justify-content-center border border-success">
+                <li>テキスト校正くん</li>
+                <p>短い文章であれば目視でもチェックできますが、長文になるとチェックに時間がかかり見落としも多くなってしまいます。そんなとき、「テキスト校正くん」を利用することで、文章チェックの手間を軽減でき、文章の品質を高めることができます。
+                </p>
+                <img src="assets/img/textkousei.jpg" alt="textkousei">
+            </div>
+            <div class="flex-column justify-content-center border border-success">
+                <li>Peacock</li>
+                <p>プロジェクトごとにカラーを変える拡張機能。</p>
+                <img src="assets/img/peacock.jpg" alt="peacock">
+                <p>複数のプロジェクトを開いていても、判別しやすくなります。</p>
+            </div>
+        </ol>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
