@@ -12,60 +12,83 @@
 </head>
 
 <body>
-    <header class="text-center d-flex flex-row justify-content-between">
-        <div class="btn-group dropright">
+    <header class="text-center">
+        <div class="btn-group dropright d-flex flex-column">
             <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
                 Menu
             </button>
             <div class="dropdown-menu" x-placement="right-start"
                 style="position: absolute; transform: translate3d(111px, 0px, 0px); top: 0px; left: 0px; will-change: transform;">
-                <a class="dropdown-item" href="#">Topページ</a>
+                <a class="dropdown-item" href="index.html">Topページ</a>
                 <a class="dropdown-item" href="#">何か</a>
             </div>
         </div>
         <h1>VS拡張機能の紹介</h1>
     </header>
     <main>
-        <ol class="d-flex flex-wrap">
-            <div class="d-flex flex-column border border-success">
-                <li>Bracket Pair Colorizer 2</li>
-                <p>ソース内で、一致している括弧同士にわかりやすい色をつけてくれます。JavaScriptを触るときに結構重宝します。</p>
-                <img src="assets/img/bracket-pair-colorizer.jpg" alt="bracket-pair-colorizer">
+        <ol>
+            <div class="d-flex flex-row border border-success rounded-lg styling">
+                <img src="assets/img/BracketPairColorizer2.jpg" alt="bracket-pair-colorizer2" class="extension">
+                <div class="d-flex flex-column">
+                    <li>Bracket Pair Colorizer 2</li>
+                    <p>ソース内で、一致している括弧同士にわかりやすい色をつけてくれます。JavaScriptを触るときに結構重宝します。</p>
+                    <img src="assets/img/bracket-pair-colorizer.jpg" alt="bracket-pair-colorizer">
+                </div>
             </div>
-            <div class="flex-column justify-content-center border border-success">
-                <li>Code Spell Checker</li>
-                <p>名前の通り、コードのスペルをチェックしてくれる拡張機能です。</p>
-                <img src="assets/img/code-spell-checker.jpg" alt="code-spell-checker">
-                <p>↑の写真だと、starrtとtwenttyfiveがミスなので「〜」が引かれています。
 
-                    単純なスペルミスがすぐにわかるようになるので、入れると吉。</p>
+            <div class="d-flex flex-row border border-success rounded-lg styling">
+                <img src="assets/img/CodeSpellChecker.jpg" alt="Code Spell Checker" class="extension">
+                <div class="d-flex flex-column">
+                    <li>Code Spell Checker</li>
+                    <p>名前の通り、コードのスペルをチェックしてくれる拡張機能です。</p>
+                    <img src="assets/img/code-spell-checker.jpg" alt="code-spell-checker">
+                    <p>↑の写真だと、starrtとtwenttyfiveがミスなので「〜」が引かれています。
+
+                        単純なスペルミスがすぐにわかるようになるので、入れると吉。</p>
+                </div>
             </div>
-            <div class="flex-column justify-content-center border border-success">
-                <li>JavaScript code snippets</li>
-                <p>JavaScriptのスニペット集です。途中まで入力したら予測変換されたりします。</p>
-                <img src="assets/img/foreach.jpg" alt="foreach">
-                <p>forと途中まで入力して、出てくるカーソルからforeachを選ぶと,
-                    foreachの基本構文が出力されたりと、</p>
-                <img src="assets/img/foreach1.jpg" alt="foreach1">
-                <p>こんな感じでjavascriptが楽に書けるように。</p>
+
+            <div class="d-flex flex-row border border-success rounded-lg styling">
+                <img src="assets/img/JavaScriptcodesnippets.jpg" alt="JavaScript code snippets" class="extension">
+                <div class="d-flex flex-column">
+                    <li>JavaScript code snippets</li>
+                    <p>JavaScriptのスニペット集です。途中まで入力したら予測変換されたりします。</p>
+                    <img src="assets/img/foreach.jpg" alt="foreach">
+                    <p>forと途中まで入力して、出てくるカーソルからforeachを選ぶと,
+                        foreachの基本構文が出力されたりと、</p>
+                    <img src="assets/img/foreach1.jpg" alt="foreach1">
+                    <p>こんな感じでjavascriptが楽に書けるように。</p>
+                </div>
             </div>
-            <div class="flex-column justify-content-center border border-success">
-                <li>indent-rainbow</li>
-                <p>インデントに色がついて、深さが変わるごとに違う色に変化する。</p>
-                <img src="assets/img/indentRainbow.jpg" alt="indentRainbow">
+
+            <div class="d-flex flex-row border border-success rounded-lg styling">
+                <img src="assets/img/indent-rainbow.jpg" alt="indent-rainbow" class="extension">
+                <div class="flex-column justify-content-center">
+                    <li>indent-rainbow</li>
+                    <p>インデントに色がついて、深さが変わるごとに違う色に変化する。</p>
+                    <img src="assets/img/indentRainbow.jpg" alt="indentRainbow" class="rainbow">
+                </div>
             </div>
-            <div class="flex-column justify-content-center border border-success">
-                <li>テキスト校正くん</li>
-                <p>短い文章であれば目視でもチェックできますが、長文になるとチェックに時間がかかり見落としも多くなってしまいます。そんなとき、「テキスト校正くん」を利用することで、文章チェックの手間を軽減でき、文章の品質を高めることができます。
-                </p>
-                <img src="assets/img/textkousei.jpg" alt="textkousei">
+
+            <div class="d-flex flex-row border border-success rounded-lg styling">
+                <img src="assets/img/textkousei1.jpg" alt="textkousei" class="extension">
+                <div class="flex-column justify-content-center">
+                    <li>テキスト校正くん</li>
+                    <p>短い文章であれば目視でもチェックできますが、長文になるとチェックに時間がかかり見落としも多くなってしまいます。そんなとき、「テキスト校正くん」を利用することで、文章チェックの手間を軽減でき、文章の品質を高めることができます。
+                    </p>
+                    <img src="assets/img/textkousei.jpg" alt="textkousei" class="textkousei">
+                </div>
             </div>
-            <div class="flex-column justify-content-center border border-success">
+
+            <div class="d-flex flex-row border border-success rounded-lg styling">
+                <img src="assets/img/Peacock1.jpg" alt="Peacock" class="extension">
+            <div class="flex-column justify-content-center">
                 <li>Peacock</li>
                 <p>プロジェクトごとにカラーを変える拡張機能。</p>
                 <img src="assets/img/peacock.jpg" alt="peacock">
                 <p>複数のプロジェクトを開いていても、判別しやすくなります。</p>
+            </div>
             </div>
         </ol>
     </main>
