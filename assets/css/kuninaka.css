@@ -97,7 +97,7 @@ main{
 }
 
 
-.box11{ border-radius: 50%; width: 400px; height: 400px; top: ; left: 5%; background-color: yellow; }
+.box11{ border-radius: 50%; width: 400px; height: 400px;  left: 5%; background-color: yellow; }
 .box12{ border-radius: 50%; width: 350px; height: 350px; top: -10%; left: 20%; background-color: red;}
 .box13{ border-radius: 50%; width: 300px; height: 300px; top: -20%; left: 40%; background-color: brown;}
 .box14{ border-radius: 50%; width: 250px; height: 250px; top: -30%; left: 60%; background-color: blue;}
