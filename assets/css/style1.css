@@ -26,6 +26,10 @@ ol{
     margin: 20px;
 }
 
+.flex-column img{
+    width: 100%;
+}
+
 h1{
     font-size: 45px;
     text-align: center;
@@ -47,7 +51,7 @@ h1{
 
 .extension{
     height: 400px;
-    width: 400px;
+    width: 30%;
     margin: 50px;
 }
 
