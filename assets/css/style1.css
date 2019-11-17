@@ -64,4 +64,14 @@ h1{
     height: 500px;
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(109, 146, 225);
+    color: white;
+    font-weight: normal;
+}
 
