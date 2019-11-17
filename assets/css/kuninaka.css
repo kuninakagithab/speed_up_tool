@@ -2,6 +2,7 @@
 
 body{
   overflow-x: hidden;
+  background-color: rgb(250, 250, 250);;
 }
 
 .relative{position: relative;}
@@ -10,9 +11,6 @@ body{
 header {
   height: 110vh;
   width: 100%;
-  background-color: rgb(250, 250, 250);
-  /* position: absolute; */
-  /* display: block; */
   display: flex;
   z-index: 0;
 }
@@ -39,24 +37,22 @@ header {
   font-family: 'arial black';
     top: 50%;
     left: 49%;
-    /* transform: translate(-50%, -50%); */
 }
 
 .box3 {
     left: -20%;
 }
+
 .box4 {
   font-weight: 600;
     left: 20%;
 }
 
 main{
-  background-color: rgb(250, 250, 250);
   height: 100vh;
   width: 100%;
   top: 100vh;
   z-index: 0;
-  /* border: 1px solid red; */
 }
 
 .sec1{
@@ -92,8 +88,6 @@ main{
   color: black;
   cursor: pointer;
   font-size: 70px;
-  /* border: 1px solid red; */
-  /* border-radius: 10px; */
 }
 
 
@@ -107,7 +101,6 @@ main{
   width: 100%;
   height: 90vh;
   top: 50%;
-  background-color: rgb(250, 250, 250);
   margin-top: -320px;
 }
 
