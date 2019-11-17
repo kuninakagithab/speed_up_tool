@@ -1,28 +1,128 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/css/kuninaka.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>PC高速化設定</title>
 </head>
-<body>
-    <header></header>
-    <main class="col-12 bg-danger" style="height: 100vh;">
-      <div class="introduction container">
-        <img src="" alt="">
-        <h1>爆速設定</h1>
-        <p>コーダーとしては早くコードを書けるようになりたいですよね？？<br>
-        皆さんは意識してはいないと思うのですが、実は、パソコンの設定を変えるだけで、一気にコードを書く時間が減ったりします。<br>
-      そんな驚きのPCの設定をいくつか紹介してみたいと思います。</p>
-      </div>
-    </main>
-    <footer></footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<body>
+  <header></header>
+  <main class="col-12">
+    <section class="introduction container alert-secondary p-0 pb-3">
+        <img src="./assets/img/20170707152228.jpg" class="container-fluid p-0" alt="早いもんがち">
+        <h2 class="pl-2 bg-secondary " style="letter-spacing: 3px;">爆速設定</h2>
+        <p>コーダーは1日に多くのコードを書きます。</p>
+        <p>しかし、そんな中で、気がついたらいつの間にか1日が終わってしまったという経験はお持ちではないでしょうか。。。</p>
+        <p>そこで今回は、時間を１秒でも短縮して、もっと多くの時間を確保したい人向けに、時間を捻出できるPCの設定をご紹介します。</p>
+    </section>
+
+    <section class="set1 container pb-3 mt-5 alert-secondary p-0">
+      <h2 class="pl-2 bg-danger"><span class="text-white" style="font-family: 'Amatic SC', cursive;">Setting1.</span>キーリピート</h2>
+      <div class="ml-2">
+        <p>そもそもキーリピートって何やねんって話なのですが、、、</p>
+        <p>とりあえずデモ動画をどうぞ！！&nbsp;&nbsp;左デフォルト&nbsp;&nbsp;&nbsp;右セッティングです</p>
+        <div class="container d-flex">
+          <img class="col-6" src="./assets/img/キーリピートdef.gif">
+          <img class="col-6" src="./assets/img/キーリピートset.gif">
+        </div>
+        <p style="letter-spacing: 3px;">デモ動画を見ると一目瞭然ですね。</p>
+        <p>もちろんタッチパッドで操作して対象の位置までカーソルを移動してもいいのですが、</p>
+        <p>ホームポジションが崩れてしまう可能性があります。</p>
+        <p>その度に人差し指でホームポジションを探るのって少し無駄な時間ではないですか？</p>
+        <p>それに加えて、キーボードから手を離さずに開発したい人にとっては最高の設定だとも言えます。</p>
+        <ul class="p-0">
+          <li class="btn bg-danger"><a class="text-white" href="https://www.pasoble.jp/windows/10/keyboard-sokudo-settei.html">Windowsキーリピート設定</a></li>
+          <li class="btn bg-danger"><a class="text-white" href="https://support.apple.com/ja-jp/guide/mac-help/mchl0311bdb4/mac">Mac設定キーリピート設定</a></li>
+      </ul>
+      </div>
+    </section>
+
+    <section class="set2 container pb-3 mt-5 alert-secondary p-0">
+      <h2 class="pl-2 bg-secondary"><span class="text-white" style="font-family: 'Amatic SC', cursive;">Setting2.</span>ユーザー辞書設定</h2>
+      <div class="ml-2">
+      <p>これは、よく使う言葉を登録し、簡単に入力できるようにする設定です。</p>
+      <p>例えば私の場合だと</p>
+      <p>｢jq｣と打つだけで｢jQuery｣と表示され</p>
+      <p>｢js｣と打つだけで｢JavaScript｣と表示され</p>
+      <p>｢ht｣と打つだけで｢HTML｣と表示されます</p>
+      <p>デモ動画をどうぞ</p>
+      <img class="mb-2" src="./assets/img/ユーザー辞書.gif">
+      <p>こうすることで、<span class="alert-danger text-danger">ググるときの速度が格段に上がります。</span></p>
+      <p>デモ動画のように、そもそも早く入力するためには、タイピングしないことです。</p>
+      <p>入力数を減らすことで、ミスの軽減と時間短縮につながります。</p>
+      <p>しかし、この設定をするとタイピングの速度が落ちるんじゃない？という方がいらっしゃいますが、</p>
+      <p>もしそう思うのであれば、この記事で紹介している設定を全部取り入れ、</p>
+      <p>稼いだ時間で<a href="https://www.e-typing.ne.jp/">e-typing</a>や<a href="http://typingx0.net/sushida/">寿司打</a>をしてください</p>
+      <ul class="p-0">
+          <li class="btn bg-danger"><a class="text-white" href="https://hamachan.info/win10-ime-tangotouroku/">Windowsユーザー辞書設定</a></li>
+          <li class="btn bg-danger"><a class="text-white" href="https://pc-karuma.net/mac-user-dictionary/">Mac設定ユーザー辞書設定</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="set3 container pb-3 mt-5 alert-secondary p-0">
+      <h2 class="pl-2 bg-secondary"><span class="text-white" style="font-family: 'Amatic SC', cursive;">Setting3.</span>マウスポインターの速度</h2>
+      <div class="ml-2">
+      <p>これ今すぐ設定を変更すべきです！！</p>
+      <p>簡単にできるので設定してみてください</p>
+       <p>私はvscodeを開いてフォルダーを開く際に、マウスのポインターがノロノロ動くせいで</p>
+       <p>フォルダーを開き損じてしまうことがよくありました。</p>
+       <p>何度も何度もフォルダーを開こうとてこずっていると、非常に多くの時間を無駄にしてしまいます。</p>
+       <p>もちろん、一回フォルダ開き損じるのにかかる秒数は１秒にも満たないとは思いますが</p>
+       <p><span class="alert-danger text-danger">何度も繰り返すと多くの時間が奪われてしまいます。</span></p>
+      <ul class="p-0">
+        <li class="btn bg-danger"><a class="text-white" href="https://weekly.ascii.jp/elem/000/000/392/392585/">Windowsポインター設定</a></li>
+        <li class="btn bg-danger"><a class="text-white" href="https://anote.work/1328">Mac設定ポインター設定</a></li>
+      </ul>
+    </div>
+    </section>
+
+    <section class="set4 container pb-3 mt-5 alert-secondary p-0">
+      <h2 class="pl-2 bg-secondary"><span class="text-white" style="font-family: 'Amatic SC', cursive;">Setting4.</span>PC起動時に自動でアプリ起動</h2>
+      <div class="ml-2">
+      <p>これは読んだままの設定です。PCを起動させるだけで、設定したアプリが自動で勝手に立ち上がってくれます。</p>
+      <p>以下の写真に写っているのが、私がMacにログインするだけで立ち上がるアプリ一覧です</p>
+      <div>
+        <img class="col-6" src="./assets/img/ログイン自動アプリ.png" >
+      </div>
+      <p>この設定のメリットは、毎回同じ操作をしなくていいことと、</p>
+      <p>dockやデスクトップから開きたいアプリを探す必要がないということです。</p>
+      <p>また、人は1日に意思決定できる上限回数が決まっているそうです。（気になる方は<a href="https://ecdtejun.work/archives/274">一日の決定回数</a>）</p>
+      <p>この記事の内容によると意思決定とは、</p>
+      <p>トイレにいくことを決定、その後手を洗うことを決定、それが終わったら外出することを決定</p>
+      <p>といった風に決定を繰り返しています</p>
+      <p>つまりこの設定をすることによって、決定回数を減らし、<span class="alert-danger text-danger">ストレスを軽減することができます。</span></p>
+      <p>ステレスが軽減できたら、ストレス発散に使う時間も減ります。</p>
+      <p>つまりこれも設定するしかないですね</p>
+      <ul class="p-0">
+        <li class="btn bg-danger"><a class="text-white" href="https://www.pasoble.jp/windows/10/keyboard-sokudo-settei.html">Windowsログインアプリ起動設定</a></li>
+        <li class="btn bg-danger"><a class="text-white" href="https://support.apple.com/ja-jp/guide/mac-help/mchl0311bdb4/mac">Macログインアプリ起動設定</a></li>
+      </ul>
+    </div>
+
+    </section>
+    <section class="ending container pb-3 mt-5 alert-secondary p-0">
+      <h2 class="pl-2 bg-secondary">終わりに</h2>
+      <p>いかがだったでしょうか。今回は3つ紹介しましたが、他にも設定次第でもっと時間を稼ぐことができると思います。</p>
+      <p>1日の間で与えられた時間は皆平等なので、１分でも１秒でも無駄な時間を削り、有意義な時間を過ごしていただければと願っています。</p>
+    </section>
+  </main>
+  <footer></footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
